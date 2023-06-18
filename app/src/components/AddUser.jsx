@@ -1,7 +1,7 @@
 import { FormGroup, FormControl, Button, InputLabel, Input, styled } from "@mui/material";
 import { useState } from "react";
 
-import { addUser } from "../service/api";
+import { addUser } from "../service/api.js";
 
 const Container = styled(FormGroup)`
     width : 50%;
