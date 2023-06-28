@@ -1,9 +1,9 @@
-
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 import { Table, TableBody, TableCell, TableHead, TableRow, Button, styled } from "@mui/material";
 
 import { getUsers, deleteUser } from "../service/api";
-import { Link } from "react-router-dom";
 
 const StyledTable = styled(Table)`
     width: 90%;
@@ -21,8 +21,7 @@ const TBody = styled(TableRow)`
     & > td{
         font-size: 20px;
     }
-`
-;
+`;
 
 const AllUsers = () =>{
 
